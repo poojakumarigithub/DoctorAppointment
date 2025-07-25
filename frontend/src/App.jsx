@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Layout from './layout/Layout'
-
+import './index.css'
 function App() {
   
 
