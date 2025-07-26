@@ -78,7 +78,7 @@ const Footer = () => {
                 <div className='flex  justify-between flex-col md:flex-row flex-wrap gap-[30px]'>
                     <div className="">
                         <img src={logoo} alt="" className='w-[100px]'/>
-                        <p className='text-[16px] leading-7 font-[400] text-textColor'>{year}All Rights Reserved !</p>
+                        <p className='text-[16px] leading-7 font-[400] text-textColor'>{year} All Rights Reserved !</p>
                         <div className='flex items-center gap-3 mt-4 '>
                             {socialLinks.map((link,index)=><Link className='w-9 h-9 border border-solid border-[#181A1E]
                             rounded-full flex items-center justify-center group hover:bg-primaryColor hover:border-none'
