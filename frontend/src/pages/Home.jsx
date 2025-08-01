@@ -17,6 +17,7 @@ import ServiceList from '../components/Services/ServiceList'
 import DoctorList from '../components/Doctors/DoctorList'
 import FaqList from '../components/Faq/FaqList'
 import Testimonial from '../components/Testimonial/Testimonial'
+
 const Home = () => {
   return (
     <>
@@ -35,7 +36,7 @@ const Home = () => {
                                 doctor profiles, patient reviews, and essential healthcare services for efficient care.
                             </p>
                             <button className="btn">
-                                Book Appointment Now
+                                <Link to='/register'>Book Appointment Now</Link>
                             </button>
                         </div>
 
