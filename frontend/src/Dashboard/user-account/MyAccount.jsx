@@ -51,7 +51,7 @@ const MyAccount = () => {
                         </span>
                     </p>
                 </div>
-
+                {/* Logout delete btn */}
                 <div className="mt-[50px] md:mt-[100px]" >
                     <button 
                         onClick={handleLogout}
