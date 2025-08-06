@@ -17,21 +17,21 @@ const Header = () => {
   const menuRef = useRef(null)
   const {user,role,token} = useContext(authContext)
   //Sticky header logic
-  useEffect(() => {
-    const handleScroll = () => {
-      if (
-        document.body.scrollTop > 80 ||
-        document.documentElement.scrollTop > 80
-      ) {
-        headerRef.current.classList.add('sticky__header')
-      } else {
-        headerRef.current.classList.remove('sticky__header')
-      }
-    }
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     if (
+  //       document.body.scrollTop > 80 ||
+  //       document.documentElement.scrollTop > 80
+  //     ) {
+  //       headerRef.current.classList.add('sticky__header')
+  //     } else {
+  //       headerRef.current.classList.remove('sticky__header')
+  //     }
+  //   }
 
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
+  //   window.addEventListener('scroll', handleScroll)
+  //   return () => window.removeEventListener('scroll', handleScroll)
+  // }, [])
 
   // Menu toggle
   const toggleMenu = (e) => {
