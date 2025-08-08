@@ -128,3 +128,39 @@ ScreenShots
 <img width="1893" height="907" alt="Screenshot 2025-08-06 210605" src="https://github.com/user-attachments/assets/f5d3269a-f4e7-4d1b-88a3-434f82596486" />
 
 
+## ⚙️ Installation & Setup
+
+**1️⃣ Clone repository**
+
+git clone https://github.com/yourusername/doctor-appointment-app.git
+cd doctor-appointment-app
+2️⃣ Install dependencies
+
+# Install backend dependencies
+cd server
+npm install
+
+# Install frontend dependencies
+cd ../client
+npm install
+3️⃣ Create environment variables
+
+
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+STRIPE_SECRET_KEY=your_stripe_secret_key
+CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+
+4️⃣ Run the application
+# Run backend
+cd server
+npm run dev
+
+# Run frontend
+cd ../client
+npm start
+
+
