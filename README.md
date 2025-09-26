@@ -127,7 +127,6 @@ ScreenShots
 
 <img width="1893" height="907" alt="Screenshot 2025-08-06 210605" src="https://github.com/user-attachments/assets/f5d3269a-f4e7-4d1b-88a3-434f82596486" />
 
-
 ## ⚙️ Installation & Setup
 
 **1️⃣ Clone repository**
